@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="departure_board.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery.loadTemplate-1.4.4.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="departure_board.js"></script>
+    <script id="departure-row-tmpl" type="text/html">
+        <td class="dest" data-content="destination"></td>
+        <td class="scheduled" data-content="scheduledtime" data-format="timeOfDayFormatter"></td>
+        <td class="expected" data-content="expected" data-format="timeOfDayFormatter"></td>
+        <td class="status" data-content="status"></td>
+        <td class="track" data-content="track"></td>
+        <td class="trip" data-content="trip"></td>
+    </script>
+
+    <script id="table-header"  type="text/html">
+        <th class="dest">Destination</th>
+        <th class="scheduled">Scheduled</th>
+        <th class="expected">Expected</th>
+        <th class="status">Status</th>
+        <th class="track">Track#</th>
+        <th class="trip">Train#</th>
+    </script>
+
+</head>
+
+<body>
+<div id="last-updated"></div>
+</body>
+
+</html>

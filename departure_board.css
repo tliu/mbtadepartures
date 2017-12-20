@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica;
+    background-color: #000;
+    color: #faff00;
+}
+.station-header {
+    font-size: 32px;
+}
+
+table {
+    font-family: Courier New;
+}
+
+th {
+    text-align: left; 
+}
+
+td {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.dest {
+    min-width: 250px;
+}
+
+.scheduled {
+    text-align: right;
+    min-width: 80px;
+}
+
+.expected {
+    text-align: right;
+    min-width: 80px;
+}
+
+.status {
+    min-width: 150px;
+    text-align: center;
+}
+
+.track {
+    text-align: center;
+}
+
+.trip {
+    text-align: center;
+}
