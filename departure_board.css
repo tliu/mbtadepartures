@@ -13,11 +13,13 @@ table {
 
 th {
     text-align: left; 
+    padding-right: 6px;
+    padding-left: 6px;
 }
 
 td {
-    margin-right: 4px;
-    margin-left: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .dest {
