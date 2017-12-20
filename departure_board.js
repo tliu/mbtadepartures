@@ -28,7 +28,6 @@ function getDepartures() {
                 station = el.origin.replace(" ", "").toLowerCase();
                 tid = "#departure-table-" + station;
                 if ($(tid).length == 0) {
-                    console.log(tid)
                     $("body").append("<div class='station-header'>" + el.origin + "</div>");
                     $("body").append("<table class='departure-table' id='" + tid.substring(1) + "'></table>");
                     $(tid).append(generateHeader());
