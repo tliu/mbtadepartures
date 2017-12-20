@@ -1,13 +1,10 @@
 import csv
 import requests
-import threading
 import time
 from flask import Flask
 from flask import jsonify
 
 URL = "http://developer.mbta.com/lib/gtrtfs/Departures.csv"
-
-lock = threading.Lock()
 
 app = Flask(__name__)
 
